@@ -1,0 +1,4 @@
+{
+    "PostgresURI": "postgres://izehjvljvlsbyx:00747f9ce6e1ac606817724fa30e29da6c557013494f1c2c4a6b767d5733ec13@ec2-54-225-76-136.compute-1.amazonaws.com:5432/d6gok22rv8i370",
+    "jwtSecret": "jwtSecret" 
+}

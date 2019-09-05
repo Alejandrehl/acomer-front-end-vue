@@ -1,0 +1,113 @@
+body {
+    color: #545454;
+}
+
+.page-enter-active,
+.page-leave-active {
+    transition: opacity .5s;
+}
+
+.page-enter,
+.page-leave-to {
+    opacity: 0.25;
+}
+
+button.is-primary {
+    background-color: #FBE700!important;
+}
+
+.v--modal {
+    @media(max-width: 768px) {
+        width: 90%!important;
+        height: auto!important;
+        left: 5%!important;
+    }
+}
+
+button:disabled {
+    background: #ccc!important;
+}
+
+// Modal estandard 
+.modal_standard {
+    h1 {
+        margin: 15px 0;
+        font-size: 18px;
+        text-align: center;
+    }
+    label,
+    input {
+        font-size: 14px;
+    }
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('~assets/Montserrat.ttf');
+}
+
+.carta_section_title {
+    font-weight: 700;
+    line-height: 1;
+    float: left;
+    font-size: 17px;
+    width: 90%;
+    margin: 15px 0;
+    color: #363636;
+}
+
+input {
+    border: 1px solid #afafaf;
+    &::placeholder {
+        color: #afafaf!important;
+    }
+}
+
+// lightbox 
+.sl-overlay {
+    background: #000!important;
+}
+
+.sl-wrapper .sl-close {
+    color: #FBE700!important;
+}
+
+.my-gallery a:hover img {
+    z-index: 2!important;
+}
+.lb{
+    float: left;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    max-height: 360px;
+    .album-lb{
+      height: auto;
+      float: left;
+      width: 100%;
+      a{
+        float: left;
+        width: calc(100%/4);
+        height: auto;
+        @media screen and(max-width:426px){
+          width: calc(100%/3);
+        }
+        img{
+          float: left;
+          width: 100% ;
+          border-radius: 5px;
+          height: 120px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+// Product
+.product_big_picture {
+    width: 100%!important;
+    z-index: 1;
+}

@@ -1,0 +1,4 @@
+{
+    "PostgresURI": "postgres://postgres:koujinkagamine@localhost:5432/acomerapi_development",
+    "jwtSecret": "jwtSecret"
+}
