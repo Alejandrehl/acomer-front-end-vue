@@ -28,7 +28,7 @@
     "express-sslify": "^1.2.0",
     "jspdf": "^1.5.3",
     "lightbox2": "^2.11.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "node-sass": "^4.12.0",
     "nuxt": "^2.8.1",
     "nuxt-fontawesome": "^0.4.0",
